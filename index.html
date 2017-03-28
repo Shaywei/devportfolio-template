@@ -48,9 +48,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Shay Weiss</h1>
+            <h2>Senior DevOps Lead(er)</h2>
+            <a href="https://github.com/Shaywei/Curriculum-Vitae/raw/master/cv_shay_weiss.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -73,9 +73,23 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        <ul></ul>
+                        Software development, craftsmanship and engineering has always been a passion of mine
+                        It is a privilege to be able to make a living off of a hobby I enjoy pursuing.
+                        I have been tinkering with software since childhood and have been writing and designing software which is effective, readable maintainable since.
+
+                        I am a good people manager and product owner.
+                        Passionate about leadership and making dreams becoming a reality.
+                        I love being part of the big picture and make sure everyone are happy and on the same page.
+                        I cultivate strong communication skills based on honesty, transparency and openness.
+                        A strong negotiator and conflict diffuser. Well rounded in soft skills.
+
+                        I have evolved and matured with my experience as a software engineer and manager and I strive that all my work will be guided by:
+                        <ul>
+                            <li>"Done is better than Perfect"</li>
+                            <li>"Make data driven decisions" (It's immensely satisfying to see the results of your work make a visual and measurable impact on a key metric graph)</li>
+                            <li>"A line of code is written once but is read many times"</li>
+                        </ul>
                     </p>
                 </div>
             </div>
@@ -86,29 +100,93 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Feb 2016 – Now">
+                <h3>Spotify</h3>
+                <h4>Senior DevOps Lead (NYC)</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    <ul>
+                        <li>Improving client build times and infrastructure</li>
+                        <ul>
+                            <li> Creating infrastructure to gather and visualise all build data from CI and developer's local builds.</li>
+                            <li> Using said data to analyse and eliviate bottlenecks, find regressions and facilitate for data-driven decisions</li>
+                            <li> Improving build times using pararilzatizong techniques and cacheing</li>
+                            <li> Cross platform effort on tier-1 clients (Android, iOS, Desktop (JavaScript))</li>
+                        </ul>
+                        <li>Taking on the issue of flakiness in builds and tests
+                        <ul>
+                            <li> Creating infrastructure to measure and track flakiness metric and visualise it per test case (unit, integration, end2end) per client</li>
+                            <li> Same as above but for general infrastructure flakiness and Pull Request flakiness</li>
+                            <li> Building custom test runners (per client) to be able to run a given test X time in a row to measure specific test flakiness</li>
+                            <li> Designing and implementing a 'Purgatory' system - the process of flagging flaky tests, disable them in order increase confidence of build, create ticket for test owner and track it until test flakiness is fixed</li>
+                        </ul>
+                        <li> Part of a cross-organisational team of SREs for incident management:</li>
+                        <ul>
+                            <li> All-purpose on-call for incidents with user-facing or financial ramifications</li>
+                            <li> Promoting best practices in all matters dev, ops and scalability</li>
+                            <li> Capacity planning and failover exercises to make sure Spotify can serve users 24/7/365</li>
+                        </ul>
+                    </ul>
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="July 2014 – Feb 2016">
+                <h3>Spotify</h3>
+                <h4>Senior Devops Lead (Stockholm)</span> Master</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                <ul>
+                    <li>Enhancing and maintaining the CI/CD infrastructure</li> 
+                    <ul>
+                        <li>Migrating organisation from Gerrit to Github Enterprise</li>
+                        <li>Operating and optimising one of the largest TeamCity servers in production</li>
+                        <li>All the binary repositories (Debrepo, PyPi for Python, NPM for Node, Artifactory for Maven and misc)</li>
+                    </ul>
+                    <li>Making sure all services owned meet best practices:</li>
+                    <ul>
+                        <li>All services are under configuration management (Puppet) and new servers can be re-provisioned with a push of a button</li>
+                        <li>All crucial data for services is backed-up and can be recovered in case of a catastrophe.</li>
+                        <li>All services are monitored with core and business metrics (from CPU to service availability) using ELK setup</li>
+                        <li>Regularly scheduled "swap-weeks" to verify we can provision and recover lost production servers</li>
+                    </ul>
+                </ul>
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Jan 2013 – July 2014">
+                <h3>Hewlett-Packard (HP)</h3>
+                <h4>Scrum <span style="text-decoration:line-through;">Monster</span> Master</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                <ul>
+                    <li>Architecting CI/CD flows and release cycle for a complex Enterprise-level product developed by over 200 developers worldwide (Israel, US and China)</li>
+                    <li>Extensive enhancement of Jenkins CI via plugins and automation tools</li>
+                    <li>Supporting infrastructure of entire dev process: Stash Git repo management, Nexus binary repository, Puppet and Vagrant deployment</li>
+                    <li>Leading cultural change and best practices (Git workflows, DRY, Scrum, etc')</li>
+                </ul>
                 </p>
             </div>
+
+            <div data-date="June 2012 – Jan 2013">
+                <h3>Alogwiz</h3>
+                <h4>Senior Software Engineer</h4>
+                <p>
+                    <ul>
+                        <li>Feature developer on a massive Python codebase that does real-world stock market and forex trading</li>
+                        <li>Architected all in-house DevOps systems from scratch</li>
+                        <li>Cultivated best practices (small commits, TDD, tests as live code documentation) within the engineering culture</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="Jan 2011 – June 2012">
+                <h3>VisionMap</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    <ul>
+                        <li>Created an in-house system for Integration/Deployment tests</li>
+                        <li>Solving infrastructure problems (3rd party libraries, platform issues and more</li>
+                    </ul>
+                </p>
+            </div>
+
         </div>
     </div>
     <!-- End #experience -->
@@ -116,30 +194,13 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
+            <h3>Ben-Gurion University of the Negev</h3>
             <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>Bachelor of Science in Math and Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Bi-disciplinary program at Ben Gurion University.
+                Graduated with honors.
             </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
         </div>
         <!-- End .education-block -->
     </div>
@@ -157,7 +218,7 @@
                     <div class="project-info">
                         <h3>Project Name Here</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            TBD
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -186,42 +247,57 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">Technical Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Java (Also Groovy, Maven, Gradle)</li>
+            <li>Python &hearts; </li>
+            <li>Scala</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
             <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>React</li>            
+            <li>HTML</li>
+            <li>CSS & SASS</li>
+            <li>GCP (BQ, GCS, etc.) &hearts;</li>
+            <li>Git: Plumbing & Porcelain</li>
+            <li>Git servers: GHE, Gerrit, Stash</li>
+            <li>Build servers: TeamCity, Hudson/Jenkins</li>
+            <li>Linux ops & troubleshooting &hearts;</li>
+            <li>Puppet &hearts;</li>
+            <li>Monitoring</li>
+            <li>Automation &hearts;</li>
+            <li>Nginx</li>
+            <li>ELK (Elasticsearch, Logstash, Kibana) &hearts;</li>
+            <li>Redis</li>
+            <li>PostgreSQL</li>
+            <li>ZeroMQ,</li>
+            <li>Protobuffs</li>
         </ul>
     </div>
+
+    <div id="skills">
+        <h2 class="heading">Soft Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Interpersonal Communication</li>
+            <li>Stakeholder management</li>
+            <li>Product Ownership/Building</li>
+            <li>Prioritization</li>
+            <li>Making tradeoffs based on business needs</li>
+            <li>Backlog grooming</li>
+            <li>Team-building, recruiting</li>
+            <li>Retrospective, Post-morterms</li>
+            <li>Agile/Scrum Methodologists</li>
+        </ul>
+    </div>
+
     <!-- End #skills -->
 
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/another.shay.weiss@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +313,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2017 Shay Weiss
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,19 +324,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/shaywei" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://bitbucket.org/lost_dm/" target="_blank"><i class="fa fa-bitbucket" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/shaywei" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
